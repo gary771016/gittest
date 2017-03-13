@@ -77,9 +77,7 @@ public class MainActivity extends AppCompatActivity {
 
             if(tBtn.isChecked())
             {
-                vibrator.cancel();
-                    long []patteren={0,30000,0,30000,0,30000,0,30000,0,30000};
-                   vibrator.vibrate(patteren,1);
+              vibrator.vibrate(10*60*1000);
 
             }
             else
