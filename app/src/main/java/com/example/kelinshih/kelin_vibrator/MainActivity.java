@@ -69,6 +69,8 @@ public class MainActivity extends AppCompatActivity {
             findViewById(R.id.textView4).setBackgroundColor(Color.WHITE);
             colorWhite=true;
         }
+
+        //test update
     }
 
     private View.OnClickListener tBtnL=new View.OnClickListener() {
